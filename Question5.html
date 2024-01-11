@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Sign Up</h2>
+  <p>Please fill in this form to create an account.</p>
+  <hr>
+  <form>
+    <label for="firstname">First Name:
+      <input type="text" placeholder="Kiran" name="firstname" required minlength="3" and maxlength="20">
+    </label>
+    <br>
+    <label for="lastname">Last Name:
+      <input type="text" placeholder="Thapa" name="lastname" required minlength="3" and maxlength="20">
+    </label>
+    <br>
+    <label for="Email">Email:
+      <input type="text" placeholder="surveykiran64@gmail.com" name="Email" required>
+    </label>
+    <br>
+    <label for="password">Password:
+      <input type="text" placeholder="**********" name="password" required minlength="8" and maxlength="20">
+    </label>
+    <br>
+    <label for="Confirm Password">Confirm Password:
+      <input type="text" placeholder="**********" name="Confirm Password" required>
+    </label>
+    <br>
+    <label for="Age">Age:
+      <input type="number" placeholder="27" name="Age" required min="0" and max="150">
+    </label>
+    <br>
+    <label>Gender:
+      <input type="radio" value="male" required/>
+      <label for="male">Male</label>
+      <input type="radio" value="female"/>
+      <label for="female">Female</label>
+      <input type="radio" value="others"/>
+      <label for="other">Others</label>
+    </label>
+    <br>
+    <label>terms:
+      <input type="checkbox" required/>I agree to terms and conditions
+    </label>
+    <br>
+    <button type="submit">Register</button>
+  </form>
+  <br>
+  <br>
+  <h2>Sign In</h2>
+  <hr>
+  <form>
+    <label for="Email">Email:
+      <input type="text" placeholder="surveykiran64@gmail.com" name="Email" required>
+    </label>
+    <br>
+    <label for="password">Password:
+      <input type="text" placeholder="**********" name="password" required minlength="8" and maxlength="20">
+    </label>
+    <br>
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
